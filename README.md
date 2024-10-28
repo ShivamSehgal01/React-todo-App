@@ -5,7 +5,7 @@ It has the following features-
 
 - Anyone can create a Todo
 - Anyone can see their created Todo
-- Anyone can mark Todo as done 
+- Anyone can mark Todo as conplete 
 
 // for backend
 // Intialize a node project
