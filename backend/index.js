@@ -13,7 +13,7 @@ app.post('/todo', async (req, res)=>{
     const parsePayLoad = create_todo.safeParse(createPayLoad);
     if(!parsePayLoad.success){
         res.status(411).json({
-            msg: "Why you sending Wrong Input",
+            msg: "Why you send Wrong Input",
         })
         return;
     }
