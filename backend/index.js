@@ -49,7 +49,7 @@ app.put('/completed', async (req,res)=>{
         _id : req.body.id
     }, 
     {
-        completed: true
+        completed: 1
     })
 
     res.json({
